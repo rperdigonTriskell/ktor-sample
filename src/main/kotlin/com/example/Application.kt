@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 fun Application.module() {
     configureRouting()
 }
-
+//start server
 fun Application.configureRouting() {
     routing {
         get("/") {
